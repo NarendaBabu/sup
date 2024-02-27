@@ -1,4 +1,4 @@
-# GUI modules
+# GUI modules nimport
 import time
 #start_time = time.time()
 import audioread
@@ -224,7 +224,7 @@ DEMUCS_MODELS_DIR = os.path.join(MODELS_DIR, 'Demucs_Models')
 DEMUCS_NEWER_REPO_DIR = os.path.join(DEMUCS_MODELS_DIR, 'v3_v4_repo')
 MDX_MIXER_PATH = os.path.join(BASE_PATH, 'lib_v5', 'mixer.ckpt')
 
-#Cache & Parameters
+#Cache and Parameters
 VR_HASH_DIR = os.path.join(VR_MODELS_DIR, 'model_data')
 VR_HASH_JSON = os.path.join(VR_MODELS_DIR, 'model_data', 'model_data.json')
 MDX_HASH_DIR = os.path.join(MDX_MODELS_DIR, 'model_data')
