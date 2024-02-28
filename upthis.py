@@ -70,7 +70,7 @@ is_gpu_available = cuda_available or mps_available# or directml_available
 # Change the current working directory to the directory
 # this file sits in
 if getattr(sys, 'frozen', False):
-    # If the application is run as a bundle, the PyInstaller bootloader
+    # If the application is run as a bundle, the PyInstaller bootloaders
     # extends the sys module by a flag frozen=True and sets the app
     # path into variable _MEIPASS'.
     BASE_PATH = sys._MEIPASS
