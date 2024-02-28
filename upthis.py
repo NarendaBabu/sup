@@ -121,7 +121,7 @@ elif OPERATING_SYSTEM=="Windows":
     is_macos = False
     right_click_button = '<Button-3>'
     application_extension = ".exe"
-
+#right click
 def right_click_release_linux(window, top_win=None):
     if OPERATING_SYSTEM=="Linux":
         root.bind('<Button-1>', lambda e:window.destroy())
