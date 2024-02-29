@@ -60,7 +60,7 @@ from collections import Counter
 
 # if not is_macos:
 #     import torch_directml
-
+#ifyou suckdildo 
 # is_choose_arch = cuda_available and directml_available
 # is_opencl_only = not cuda_available and directml_available
 # is_cuda_only = cuda_available and not directml_available
