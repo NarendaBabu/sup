@@ -40,7 +40,9 @@ from gui_data.app_size_values import *
 from gui_data.error_handling import error_text, error_dialouge
 from gui_data.old_data_check import file_check, remove_unneeded_yamls, remove_temps
 from gui_data.tkinterdnd2 import TkinterDnD, DND_FILES
-from lib_v5.vr_network.model_param_init import ModelParameters
+from lib_v5.vr_network.from gui_data.constants import *
+from gui_data.app_size_values import *from gui_data.constants import *
+from gui_data.app_size_values import *model_param_init import ModelParameters
 from kthread import KThread
 from lib_v5 import spec_utils
 from pathlib  import Path
@@ -53,7 +55,8 @@ from playsound import playsound
 from typing import List
 import onnx
 import re
-import sys
+import sysfrom gui_data.constants import *
+from gui_data.app_size_values import *
 import yaml
 from ml_collections import ConfigDict
 from collections import Counter
