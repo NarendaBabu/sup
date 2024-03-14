@@ -117,6 +117,9 @@ elif OPERATING_SYSTEM=="Windows":
     OPEN_FILE_func = lambda input_string:os.startfile(input_string)
     dnd_path_check = WINDOWS_DND_CHECK
     current_patch = PATCH
+     current_patch = PATCH_MAC
+    is_windows = False
+    is_macos = True
     is_windows = True
     is_macos = False
     right_click_button = '<Button-3>'
